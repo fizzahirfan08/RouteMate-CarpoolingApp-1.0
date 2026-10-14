@@ -1,0 +1,27 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Local secrets and API keys (copy from gradle.properties.example)
+gradle.properties
+
+# Supabase SQL migrations (run manually in dashboard)
+supabase/
+
+# Figma / design reference assets
+MAD_Carpool_App/
+
+# Legacy raster logo (replaced by ic_routemate_mark vector)
+app/src/main/res/drawable/routemate_logo.jpg

@@ -1,0 +1,13 @@
+# Copy this file to gradle.properties and fill in your values.
+# gradle.properties is gitignored and will not be committed.
+
+org.gradle.jvmargs=-Xmx2048m -Dfile.encoding=UTF-8
+android.useAndroidX=true
+kotlin.code.style=official
+android.nonTransitiveRClass=true
+
+SUPABASE_URL=https://your-project.supabase.co
+SUPABASE_ANON_KEY=your_supabase_anon_key
+
+# Optional — leave blank to use map placeholder. Enable Maps SDK for Android in Google Cloud.
+MAPS_API_KEY=
